@@ -4,11 +4,15 @@ import '../template/custom.css';
 
 import React from 'react';
 import Menu from '../template/menu';
-import Routes from './routes';
+import Routes from '../main/routes';
+
+import Tarefas from '../form/tarefas';
+import EditForm from '../form/editForm';
 
 export default props => (
     <div className="container">
         <Menu />
-        <Routes />
+        {/* <Routes /> */}
+        <Tarefas />
     </div>
 )

@@ -3,9 +3,9 @@ import If from './if';
 
 export default props => (
     <If test={!props.hide}>
-        <button className={'btn btn-' + props.style} onClick={props.onClick}>
+        <a className={'btn btn-' + props.style} onClick={props.onClick} href={props.link}>
             <i className={'fa fa-' + props.icon}></i>
             {props.text}
-        </button>
+        </a>
     </If>
 )
