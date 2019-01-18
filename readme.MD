@@ -1,5 +1,7 @@
 ## Instalação
-Execute o comando para instalar as dependencias necessarias
+Abra o terminal e navegue até a pasta do projeto.<br />
+
+Execute o comando para instalar as dependencias necessarias<br />
 
 ```sh
 npm i
@@ -16,3 +18,13 @@ devServer: {
         port: 8080,
 ...
 ```
+
+## Visualizar
+Execute o seguinte comando:
+
+```sh
+npm run dev
+```
+
+No navegador, digite http://localhost:8080
+(não esqueça de rodar o projeto APITarefas em uma porta diferente)
